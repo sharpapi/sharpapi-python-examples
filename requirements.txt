@@ -1,0 +1,11 @@
+# Install sharpapi-python-client from local path in editable mode
+# pip install -r requirements.txt
+# pip list
+-e ../sharpapi_python_client
+
+#when available on PyPI
+#sharpapi-python-client>=1.2.0
+
+# For loading environment variables from .env files
+python-dotenv>=0.15.0
+
